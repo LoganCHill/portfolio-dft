@@ -1,0 +1,87 @@
+:root {
+  --survey-accent-color: #007B7F;
+  --survey-card-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  --survey-border-radius: 12px;
+  --survey-font-family: 'Inter', 'Helvetica Neue', sans-serif;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --survey-accent-color: #008891;
+    --survey-card-shadow: 0 4px 12px rgba(255, 255, 255, 0.05);
+  }
+}
+
+/* Survey container */
+.sd-root-modern {
+  width: 100%;
+  height: 100%;
+  font-family: var(--survey-font-family);
+  padding: 0.25rem 0.5rem;
+}
+
+/* Question card */
+.sd-question {
+  background-color: var(--survey-card-bg);
+  border-radius: var(--survey-border-radius);
+  box-shadow: var(--survey-card-shadow);
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  transition: box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+/* Headings */
+.sd-title {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: var(--survey-text-primary);
+  margin-bottom: 1rem;
+}
+
+.sd-description {
+  font-size: 1rem;
+  color: var(--survey-text-secondary);
+  margin-bottom: 1.5rem;
+}
+
+/* HTML elements (like intro) */
+.survey-intro {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+
+.survey-intro i {
+  font-size: 4rem;
+  color: var(--survey-accent-color);
+  margin-bottom: 1rem;
+}
+
+.survey-intro h2 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: var(--survey-text-primary);
+}
+
+.survey-intro p {
+  font-size: 1.2rem;
+  color: var(--survey-text-secondary);
+}
+
+/* Buttons */
+.sd-btn {
+  background-color: var(--survey-accent-color);
+  color: #fff;
+  border-radius: 8px;
+  padding: 0.75rem 1.5rem;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.sd-btn:hover {
+  background-color: #357ab8;
+}

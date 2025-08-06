@@ -1,0 +1,446 @@
+.resume-secton {
+  /* color: #707070; */
+  /* color: whitesmoke; */
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+
+.resume-container {
+  z-index: 2;
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  width: 106.25rem;
+  max-width: 106.25rem;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 6rem 4rem;
+  display: flex;
+  position: relative;
+}
+
+.resume-plus {
+  background-color: whitesmoke;
+  border-radius: 3px;
+  width: 100%;
+  height: 5px;
+}
+
+.resume-desrpion {
+  border-bottom: 1px solid #e6e6e6;
+  max-width: none;
+  overflow: hidden;
+}
+
+.resume-plus-wrap {
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  margin-right: 25px;
+  display: flex;
+  position: relative;
+}
+
+.resume-plus-l {
+  background-color: whitesmoke;
+  border-radius: 3px;
+  width: 5px;
+  height: 100%;
+  position: absolute;
+}
+
+.resume-headline {
+  cursor: pointer;
+  align-items: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  font-size: 22px;
+  font-weight: 800;
+  display: flex;
+}
+
+.resume-visible {
+  grid-template-rows: auto;
+  grid-template-columns: 0.25fr 0.75fr 0.45fr;
+  width: 100%;
+}
+
+.resume-date,
+.resume-comany {
+  /* color: whitesmoke; */
+  letter-spacing: -0.0625rem;
+  -webkit-text-stroke-color: #151515;
+  font-family: Inter, sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: -0.0625rem;
+  line-height: 1.3;
+}
+
+.w-resume-layout-grid {
+  grid-row-gap: 16px;
+  grid-column-gap: 16px;
+  grid-template-rows: auto auto;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-columns: 1fr;
+  display: grid;
+}
+
+.h1-position {
+  /* color: whitesmoke; */
+  letter-spacing: -0.0625rem;
+  /* -webkit-text-stroke-color: #151515; */
+  font-family: Inter Tight, sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.h1-medium {
+  /* color: whitesmoke; */
+  text-align: left;
+  text-transform: uppercase;
+  margin-left: -0.3rem;
+  font-size: 5rem;
+  line-height: 1;
+}
+
+.h1-medium.align-center {
+  text-align: center;
+  font-size: 6.785rem;
+}
+
+.h1-medium.align-center.gray {
+  color: #e6e6e6;
+}
+
+.h1-medium {
+  font-size: 4rem;
+  line-height: 1.1;
+}
+
+.h1-medium.align-center,
+.h1-medium.align-center.gray {
+  font-size: 4rem;
+}
+
+.h1-medium {
+  font-size: 2.75rem;
+}
+
+.h1-medium.align-center,
+.h1-medium.align-center.gray {
+  font-size: 3rem;
+}
+
+.max-100ch {
+  max-width: 200ch;
+}
+
+.resume-task-wrapper {
+  margin-left: -1rem;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  display: flex;
+}
+
+.task-container {
+  align-items: center;
+  padding-left: 5.2rem;
+  display: flex;
+}
+
+.bullet {
+  background-color: var(--primary\<deleted\|variable-28bb1599-8cfd-da9c-fba9-54da87e7391d\>);
+  border-radius: 100%;
+  width: 5px;
+  height: 5px;
+}
+
+.task-item {
+  -webkit-text-stroke-color: #151515;
+  padding-left: .5rem;
+  font-weight: 600;
+  line-height: 1.8;
+}
+
+.coding-card {
+  border-radius: 8px;
+  box-shadow: 0 4px 12px #00000014;
+  padding: 1.2em;
+  margin: 1em 0;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.coding-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+}
+
+.coding-card-title h4 {
+  font-size: 1.25em;
+  margin-bottom: 0.5em;
+}
+
+.coding-card-description {
+  font-size: 0.95em;
+  line-height: 1.5;
+  width: 100%;
+}
+
+.coding-links {
+  margin-top: 0.8em;
+}
+
+.coding-links a {
+  font-size: 0.85em;
+  color: #0077cc;
+  text-decoration: none;
+  margin-right: 0.5em;
+}
+
+.coding-links a:hover {
+  text-decoration: underline;
+}
+
+.coding-fade-in {
+  opacity: 0;
+  animation: codingFadeIn 0.6s ease forwards;
+}
+
+@keyframes codingFadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+.projects-layout .coding-card {
+  width: 100%;
+}
+
+.coding-toggle {
+  margin: 0.8em 0;
+  padding: 0.4em 0.8em;
+  font-size: 0.85em;
+  background-color: #0077cc;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.coding-toggle:hover {
+  background-color: #005fa3;
+}
+
+.coding-filter select {
+  padding: 0.6em 1em;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background-color: #f9f9f9;
+  color: #333;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  appearance: none;
+  cursor: pointer;
+
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 10 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0l5 6 5-6z' fill='%23333'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 1em center;
+  background-size: 12px 8px;
+}
+
+.coding-filter select:focus {
+  border-color: #0077ff;
+  box-shadow: 0 0 0 2px rgba(0, 119, 255, 0.2);
+  outline: none;
+}
+
+.coding-filter select:hover {
+  background-color: #f0f0f0;
+}
+
+#customNavigation span {
+  cursor: pointer;
+  transition: transform 0.3s ease, color 0.3s ease;
+  display: inline-block;
+  margin-top: 0; /* Reduced top margin and removed horizontal margin for centering */
+  color: #007bff; /* Bootstrap blue or customize */
+}
+
+#customNavigation span:hover {
+  transform: scale(1.2);
+  color: #0056b3; /* Darker blue on hover */
+}
+
+#customNavigation i {
+  transition: transform 0.3s ease;
+}
+
+#customNavigation span:hover i {
+  transform: rotate(10deg);
+  box-shadow: 0 4px 12px rgba(0, 123, 255, 0.3);
+}
+
+.wordcloud-wrapper {
+  padding: 10px;
+  border-radius: 12px;
+  /* box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05); */
+}
+
+.wordcloud-canvas {
+  width: 100% !important;
+  height: auto !important;
+  display: block;
+  border-radius: 12px;
+}
+
+.svg-icon svg {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  fill: currentColor;
+  color: var(--icon-color);
+  transition: color 0.3s ease;
+}
+
+.svg-error {
+  color: red;
+  font-weight: bold;
+  text-align: center;
+  padding: 1rem;
+}
+
+#stimuli1, #stimuli2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+#stimuli1 svg, #stimuli2 svg {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+#stimuli1 {
+  z-index: 2;
+}
+
+#stimuli2 {
+  z-index: 1;
+}
+
+#stimuli1 svg, #stimuli2 svg {
+  width: 50%;
+  height: 50%;
+  object-fit: contain;
+  display: block;
+}
+
+.align-self-center {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.talsa-probe-btn {
+  display: block;
+  width: 90%;
+  padding: 1rem;
+  margin: 0.5rem 0;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  background-color: transparent;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  text-align: center;
+}
+
+.talsa-probe-btn-yes {
+  border-color: #28a745;
+  color: #28a745;
+}
+
+.talsa-probe-btn-no {
+  border-color: #dc3545;
+  color: #dc3545;
+}
+
+.talsa-probe-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+}
+
+.talsa-probe-btn.active {
+  transform: scale(1.1);
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.3);
+}
+
+.talsa-probe-btn .fa-circle {
+  color: inherit;
+}
+
+.talsa-probe-btn .fa-check,
+.talsa-probe-btn .fa-times {
+  color: white;
+}
+
+/*
+  This new class constrains the height of a grid item and makes it scrollable.
+  The `min-height: 0` is a crucial fix that allows grid items to shrink
+  properly instead of overflowing their container.
+*/
+.project-card-content-scroll {
+  /* min-height: 0; DFT */
+  overflow: hidden;
+}
+
+/* --- FIX FOR CUSTOM CARD INTERNAL LAYOUT --- */
+
+/* Make the custom cards span all 3 rows of the parent grid to ensure they
+   have a uniform height. Then, create an independent internal grid to
+   robustly handle the layout, pushing the footer to the bottom. */
+#healthCardWrapper,
+#survey-card {
+  grid-row: 1 / span 3;
+  /* grid-template-rows: auto 1fr auto; DFT */ /* Header, flexible content, footer */
+  display: flex;
+  flex-direction: column;
+}
+
+/* For the Health Card (2 children) */
+#healthCardWrapper > #coding-products,
+
+#healthCardWrapper > .coding-filter {
+  /* The filter is the footer */
+/*
+  grid-row: 3;
+*/
+}
+
+/* For the Survey Card (3 children) */
+#survey-card > .coding-card-title {
+  grid-row: 1;
+}
+#survey-card > #surveyContainer {
+  grid-row: 2;
+  flex-grow: 1;
+}
+#survey-card > #customNavigation {
+  text-align: center;
+  grid-row: 3;
+}
