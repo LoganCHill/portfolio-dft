@@ -63,11 +63,11 @@ var widget_talsaImage = {
 
     /**
      * Fetches an SVG file, injects it into the container, and applies styling.
-     * @param {string} filename - The name of the SVG file to load from '/assets/images/'.
+     * @param {string} filename - The name of the SVG file to load from 'assets/images/'.
      * @param {function} callback - A function to execute after the SVG is successfully loaded.
      */
     function injectSVG (filename, callback) {
-      fetch(`/assets/images/${filename}`)
+      fetch(`assets/images/${filename}`)
         .then(response => {
           if (!response.ok) throw new Error(`SVG not found: ${response.status}`)
           return response.text()
