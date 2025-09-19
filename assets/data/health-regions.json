@@ -1,0 +1,326 @@
+[
+  {
+    "region": "Alabama",
+    "regionAbbr": "AL",
+    "updated": "Varies",
+    "source": "https://www.alabamapublichealth.gov/"
+  },
+  {
+    "region": "Alaska",
+    "regionAbbr": "AK",
+    "updated": "Varies",
+    "source": "https://health.alaska.gov/"
+  },
+  {
+    "region": "Arizona",
+    "regionAbbr": "AZ",
+    "updated": "Varies",
+    "source": "https://www.azdhs.gov/"
+  },
+  {
+    "region": "Arkansas",
+    "regionAbbr": "AR",
+    "updated": "Varies",
+    "source": "https://www.healthy.arkansas.gov/"
+  },
+  {
+    "region": "California",
+    "regionAbbr": "CA",
+    "updated": "Varies",
+    "source": "https://www.cdph.ca.gov/"
+  },
+  {
+    "region": "Colorado",
+    "regionAbbr": "CO",
+    "updated": "Varies",
+    "source": "https://cdphe.colorado.gov/"
+  },
+  {
+    "region": "Connecticut",
+    "regionAbbr": "CT",
+    "updated": "Varies",
+    "source": "https://portal.ct.gov/dph"
+  },
+  {
+    "region": "Delaware",
+    "regionAbbr": "DE",
+    "updated": "Varies",
+    "source": "https://www.dhss.delaware.gov/dhss/dph/"
+  },
+  {
+    "region": "District of Columbia",
+    "regionAbbr": "DC",
+    "updated": "Varies",
+    "source": "https://dchealth.dc.gov/"
+  },
+  {
+    "region": "Florida",
+    "regionAbbr": "FL",
+    "updated": "Varies",
+    "source": "https://www.floridahealth.gov/"
+  },
+  {
+    "region": "Georgia",
+    "regionAbbr": "GA",
+    "updated": "Varies",
+    "source": "https://dph.georgia.gov/"
+  },
+  {
+    "region": "Hawaii",
+    "regionAbbr": "HI",
+    "updated": "Varies",
+    "source": "https://health.hawaii.gov/"
+  },
+  {
+    "region": "Idaho",
+    "regionAbbr": "ID",
+    "updated": "Varies",
+    "source": "https://healthandwelfare.idaho.gov/"
+  },
+  {
+    "region": "Illinois",
+    "regionAbbr": "IL",
+    "updated": "Varies",
+    "source": "https://dph.illinois.gov/"
+  },
+  {
+    "region": "Indiana",
+    "regionAbbr": "IN",
+    "updated": "Varies",
+    "source": "https://www.in.gov/health/"
+  },
+  {
+    "region": "Iowa",
+    "regionAbbr": "IA",
+    "updated": "Varies",
+    "source": "https://hhs.iowa.gov/"
+  },
+  {
+    "region": "Kansas",
+    "regionAbbr": "KS",
+    "updated": "Varies",
+    "source": "https://www.kdhe.ks.gov/"
+  },
+  {
+    "region": "Kentucky",
+    "regionAbbr": "KY",
+    "updated": "Varies",
+    "source": "https://www.chfs.ky.gov/agencies/dph/"
+  },
+  {
+    "region": "Louisiana",
+    "regionAbbr": "LA",
+    "updated": "Varies",
+    "source": "https://ldh.la.gov/"
+  },
+  {
+    "region": "Maine",
+    "regionAbbr": "ME",
+    "updated": "Varies",
+    "source": "https://www.maine.gov/dhhs/mecdc/"
+  },
+  {
+    "region": "Maryland",
+    "regionAbbr": "MD",
+    "updated": "Varies",
+    "source": "https://health.maryland.gov/"
+  },
+  {
+    "region": "Massachusetts",
+    "regionAbbr": "MA",
+    "updated": "Varies",
+    "source": "https://www.mass.gov/orgs/department-of-public-health"
+  },
+  {
+    "region": "Michigan",
+    "regionAbbr": "MI",
+    "updated": "Varies",
+    "source": "https://www.michigan.gov/mdhhs"
+  },
+  {
+    "region": "Minnesota",
+    "regionAbbr": "MN",
+    "updated": "Varies",
+    "source": "https://www.health.state.mn.us/"
+  },
+  {
+    "region": "Mississippi",
+    "regionAbbr": "MS",
+    "updated": "Varies",
+    "source": "https://msdh.ms.gov/"
+  },
+  {
+    "region": "Missouri",
+    "regionAbbr": "MO",
+    "updated": "Varies",
+    "source": "https://health.mo.gov/"
+  },
+  {
+    "region": "Montana",
+    "regionAbbr": "MT",
+    "updated": "Varies",
+    "source": "https://dphhs.mt.gov/"
+  },
+  {
+    "region": "Nebraska",
+    "regionAbbr": "NE",
+    "updated": "Varies",
+    "source": "https://dhhs.ne.gov/"
+  },
+  {
+    "region": "Nevada",
+    "regionAbbr": "NV",
+    "updated": "Varies",
+    "source": "https://dpbh.nv.gov/"
+  },
+  {
+    "region": "New Hampshire",
+    "regionAbbr": "NH",
+    "updated": "Varies",
+    "source": "https://www.dhhs.nh.gov/"
+  },
+  {
+    "region": "New Jersey",
+    "regionAbbr": "NJ",
+    "updated": "Varies",
+    "source": "https://www.nj.gov/health/"
+  },
+  {
+    "region": "New Mexico",
+    "regionAbbr": "NM",
+    "updated": "Varies",
+    "source": "https://www.nmhealth.org/"
+  },
+  {
+    "region": "New York",
+    "regionAbbr": "NY",
+    "updated": "Varies",
+    "source": "https://health.ny.gov/"
+  },
+  {
+    "region": "North Carolina",
+    "regionAbbr": "NC",
+    "updated": "Varies",
+    "source": "https://www.ncdhhs.gov/"
+  },
+  {
+    "region": "North Dakota",
+    "regionAbbr": "ND",
+    "updated": "Varies",
+    "source": "https://www.health.nd.gov/"
+  },
+  {
+    "region": "Ohio",
+    "regionAbbr": "OH",
+    "updated": "Varies",
+    "source": "https://odh.ohio.gov/"
+  },
+  {
+    "region": "Oklahoma",
+    "regionAbbr": "OK",
+    "updated": "Varies",
+    "source": "https://oklahoma.gov/health.html"
+  },
+  {
+    "region": "Oregon",
+    "regionAbbr": "OR",
+    "updated": "Varies",
+    "source": "https://www.oregon.gov/oha"
+  },
+  {
+    "region": "Pennsylvania",
+    "regionAbbr": "PA",
+    "updated": "Varies",
+    "source": "https://www.health.pa.gov/"
+  },
+  {
+    "region": "Rhode Island",
+    "regionAbbr": "RI",
+    "updated": "Varies",
+    "source": "https://health.ri.gov/"
+  },
+  {
+    "region": "South Carolina",
+    "regionAbbr": "SC",
+    "updated": "Varies",
+    "source": "https://scdhec.gov/"
+  },
+  {
+    "region": "South Dakota",
+    "regionAbbr": "SD",
+    "updated": "Varies",
+    "source": "https://doh.sd.gov/"
+  },
+  {
+    "region": "Tennessee",
+    "regionAbbr": "TN",
+    "updated": "Varies",
+    "source": "https://www.tn.gov/health.html"
+  },
+  {
+    "region": "Texas",
+    "regionAbbr": "TX",
+    "updated": "Varies",
+    "source": "https://www.dshs.texas.gov/"
+  },
+  {
+    "region": "Utah",
+    "regionAbbr": "UT",
+    "updated": "Varies",
+    "source": "https://health.utah.gov/"
+  },
+  {
+    "region": "Vermont",
+    "regionAbbr": "VT",
+    "updated": "Varies",
+    "source": "https://www.healthvermont.gov/"
+  },
+  {
+    "region": "Virginia",
+    "regionAbbr": "VA",
+    "updated": "Varies",
+    "source": "https://www.vdh.virginia.gov/"
+  },
+  {
+    "region": "Washington",
+    "regionAbbr": "WA",
+    "updated": "Varies",
+    "source": "https://doh.wa.gov/"
+  },
+  {
+    "region": "West Virginia",
+    "regionAbbr": "WV",
+    "updated": "Varies",
+    "source": "https://dhhr.wv.gov/"
+  },
+  {
+    "region": "Wisconsin",
+    "regionAbbr": "WI",
+    "updated": "Varies",
+    "source": "https://www.dhs.wisconsin.gov/"
+  },
+  {
+    "region": "Wyoming",
+    "regionAbbr": "WY",
+    "updated": "Varies",
+    "source": "https://health.wyo.gov/"
+  },
+  {
+    "region": "Puerto Rico",
+    "regionAbbr": "PR",
+    "updated": "Varies",
+    "source": "https://www.salud.pr.gov/"
+  },
+  {
+    "region": "Guam",
+    "regionAbbr": "GU",
+    "updated": "Varies",
+    "source": "https://dphss.guam.gov/"
+  },
+  {
+    "region": "U.S. Virgin Islands",
+    "regionAbbr": "VI",
+    "updated": "Varies",
+    "source": "https://doh.vi.gov/"
+  }
+]

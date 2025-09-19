@@ -1,0 +1,100 @@
+/* Prevents body scrolling when the modal is open */
+body.modal-open {
+  overflow: hidden;
+}
+
+.health-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 1rem;
+  border: 1px solid var(--default-theme--border-colour);
+  border-radius: 8px;
+  cursor: pointer;
+  transition: box-shadow 0.2s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.health-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.health-card-title {
+  margin-bottom: 0.5rem;
+}
+
+.health-card-summary {
+  font-size: 0.9rem;
+  color: var(--default-theme--text-colour-secondary);
+  flex-grow: 1;
+}
+
+.health-card-chart-container {
+  height: 80px; /* Fixed height for the summary chart */
+  margin: 1rem 0;
+}
+
+.health-card-footer {
+  text-align: center;
+  font-size: 0.8rem;
+  color: var(--default-theme--accent-colour);
+  font-weight: bold;
+}
+
+/*
+* Modal Styles
+* --------------------------------------------------
+*/
+
+.modal {
+  /* Layout & Sizing */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1000; /* Ensure it's on top */
+
+  /* Centering */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* Appearance & Animation */
+  background-color: rgba(0, 0, 0, 0.6); /* Darker overlay */
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.modal.is-visible {
+  opacity: 1;
+  visibility: visible;
+}
+
+.modal-content {
+  /* Sizing */
+  width: 90%;
+  max-width: 900px; /* Larger max-width */
+  
+  /* Appearance */
+  background-color: var(--default-theme--background-colour);
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+
+  /* Animation */
+  transform: scale(0.95);
+  transition: transform 0.3s ease;
+}
+
+.modal.is-visible .modal-content {
+  transform: scale(1);
+}
+
+.modal .chart-container {
+  position: relative;
+  width: 100%;
+  height: 45vh; /* Responsive height */
+  min-height: 350px; /* Minimum height */
+}

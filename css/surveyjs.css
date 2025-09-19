@@ -30,6 +30,16 @@
   transition: box-shadow 0.3s ease, background-color 0.3s ease;
 }
 
+/* Improve question title alignment and spacing */
+.sd-question__title {
+  text-align: center;
+  padding: 1rem 0;
+  width: 100%;
+}
+.sd-question:hover {
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+}
+
 /* Headings */
 .sd-title {
   font-size: 1.8rem;
@@ -68,7 +78,8 @@
 }
 
 .survey-intro p {
-  font-size: 1.2rem;
+  text-align: center;
+  font-size: 1.5rem;
   color: var(--survey-text-secondary);
 }
 
@@ -84,4 +95,10 @@
 
 .sd-btn:hover {
   background-color: #357ab8;
+}
+
+/* Center the custom navigation button within the modal */
+#customNavigation {
+  width: 100%;
+  text-align: center;
 }

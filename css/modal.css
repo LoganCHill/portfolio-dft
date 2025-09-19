@@ -1,0 +1,137 @@
+.survey-modal {
+  display: none; /* Hidden by default, will be changed to 'flex' by JS */
+  position: fixed; /* Stay in place */
+  z-index: 1000; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  background-color: rgba(0, 0, 0, 0.6);
+  /* Flexbox to center the content */
+  justify-content: center;
+  align-items: center;
+}
+
+.survey-modal-content {
+  /* Frosted glass effect */
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.1
+  ); /* Very light, semi-transparent white */
+  backdrop-filter: blur(10px);
+  position: relative;
+  -webkit-backdrop-filter: blur(10px); /* For Safari support */
+
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  border-radius: 8px;  
+  max-height: 90vh;
+  overflow-y: auto; /* Enable scroll if content is too tall */
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  animation-name: animate-modal-in;
+  animation-duration: 0.4s;
+}
+
+/* New rule for modals that should have a consistent, fixed width */
+.modal-fixed-width {
+  width: 90%;
+  max-width: 800px; /* Adjust this value as needed for your desired width */
+  height: 90%;
+  max-height: 700px; /* Adjust this value as needed for your desired width */
+}
+
+/* Add Animation */
+@keyframes animate-modal-in {
+  from {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* The Close Button */
+.survey-modal-close {
+  color: #aaa;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+  cursor: pointer !important;
+  transition: color 0.3s ease;
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10+ */
+  user-select: none; /* Standard syntax */
+}
+
+.survey-modal-close:hover,
+.survey-modal-close:focus {
+  color: white;
+  text-decoration: none;
+}
+
+/* --- Keyframe Animation for Dropdown Glow --- */
+@keyframes pulse-glow {
+  0% {
+    box-shadow: 0 0 0 0 rgba(0, 123, 127, 0.3);
+  }
+  70% {
+    box-shadow: 0 0 0 10px rgba(0, 123, 127, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(0, 123, 127, 0);
+  }
+}
+
+/* --- New Grouping for Side-by-Side Controls --- */
+.modal-controls-group {
+  display: flex;
+  gap: 1rem; /* Space between the dropdowns */
+  margin-top: 1rem; /* Add some space below the modal header */
+  margin-bottom: 1rem;
+}
+
+/* --- Custom Dropdown Styling --- */
+.modal-controls {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  flex-grow: 1; /* Allow controls to share space equally */
+}
+
+.modal-controls select {
+  width: 100%;
+  padding: 0.8em 1.2em;
+  font-size: 1rem;
+  font-family: inherit;
+  color: var(--default-theme--text-colour);
+  background-color: var(--survey-accent-color);
+  border: 1px solid var(--default-theme--border-colour);
+  border-radius: 6px;
+  appearance: none; /* Remove default system arrow */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  cursor: pointer;
+  animation: pulse-glow 2s infinite; /* Apply the new animation */
+
+  /* Custom dropdown arrow */
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 10 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0l5 6 5-6z' fill='currentColor'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 1em center;
+  background-size: 12px 8px;
+}
+
+.modal-controls select:focus {
+  border-color: var(--default-theme--accent-colour);
+  box-shadow: 0 0 0 2px rgba(0, 123, 127, 0.3);
+  animation: none; /* Turn off the pulse when the user is interacting with it */
+  outline: none;
+}
