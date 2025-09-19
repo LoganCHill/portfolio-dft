@@ -1,4 +1,4 @@
-// js/OverlayChart.js
+// js/overlayChart.js
 /**
  * Manages the Chart.js instance within the health data modal.
  * This class is responsible for creating, updating, and rendering the line chart

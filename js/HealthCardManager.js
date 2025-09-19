@@ -1,6 +1,6 @@
 // js/HealthCardManager.js
 import { ModalManager } from './ModalManager.js';
-import { OverlayChart } from './OverlayChart.js';
+import { OverlayChart } from './overlayChart.js';
 import { HealthCardComponent } from './healthCardComponent.js';
 import { MetricFetcher } from './metricFetcher.js';
 

@@ -20,7 +20,7 @@
     <link href="css/healthcard.css" rel="stylesheet" type="text/css" />
     <link href="css/modal.css" rel="stylesheet" type="text/css" />
     <link href="css/pathfinder.css" rel="stylesheet" type="text/css" />
-    <link href="./lib/fontawesome-5.15.4/css/all.css" rel="stylesheet" />
+    <link href="lib/fontawesome-5.15.4/css/all.css" rel="stylesheet" />
     <script type="text/javascript">
       !(function (o, c) {
         var n = c.documentElement,
@@ -86,7 +86,7 @@
               <div class="header_name">
                 <div class="avatar-wrapper">
                   <img
-                    src="assets/images/lc.png"
+                    src="assets/images/LC.png"
                     loading="lazy"
                     alt="A profile picture of David Forrest Tucker"
                     class="img-cover"
@@ -1459,7 +1459,7 @@
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/date-fns@2.29.3/index.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns@2.0.0/dist/chartjs-adapter-date-fns.bundle.min.js"></script>
-    <script src="/lib/lz-string.js"></script>
+    <script src="lib/lz-string.js"></script>
 
     <!-- Custom SurveyJS Widget Scripts -->
     <script src="js/talsaWordCloud.js"></script>
@@ -1505,7 +1505,7 @@
         anchor.addEventListener('click', function (e) {
           e.preventDefault();
 
-          const targetId = this.getAttribute('href');
+          const targetId = this.hash; // Use .hash to reliably get the "#element" part
           const targetElement = document.querySelector(targetId);
 
           if (targetElement) {
